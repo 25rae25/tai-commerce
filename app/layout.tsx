@@ -7,8 +7,8 @@ import Footer from "./components/footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Shopping Mall",
-	description: "쇼핑몰입니다",
+	title: "SAMSUNG",
+	description: "삼성 쇼핑몰입니다",
 };
 
 export default function RootLayout({

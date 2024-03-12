@@ -1,5 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import Container from "../Container";
+
 
 const NavBar = () => {
 	return (
@@ -7,7 +9,10 @@ const NavBar = () => {
 			<div className="py-4 border-b-[1px]">
 				<Container>
 					<div className="flex items-center justify-between gap-3 md-gap-0">
-						<Link href="/">SAMSUNG</Link>
+						{/* <Link href="/" className="font-[700] text-2xl">SAMSUNG</Link> */}
+						<Link href='/'>
+							<Image src='/logo-gnb.svg' alt='삼성 로고' width={100} height={100} />
+						</Link>
 						<div className="hidden md:block">Search</div>
 						<div className="flex items-center gap-8 md:gap-12">
 							<div>UserMenu</div>
